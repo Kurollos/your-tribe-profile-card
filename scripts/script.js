@@ -1,9 +1,11 @@
-/* Stap 1: Selecteer de knop */
-let expandButton = document.querySelector('.profile-card-example-button')
+const card = document.querySelector('.rect-card');
+const flipBtn = document.getElementById('flipBtn');
+const flipBackBtn = document.getElementById('flipBackBtn');
 
-/* Stap 2: Wacht tot iemand op die knop klikt */
-expandButton?.addEventListener('click', function() {
+flipBtn.addEventListener('click', () => {
+  card.classList.add('flipped');
+});
 
-  /* Stap 3: Verander een class zodra iemand op die knop klikt */
-  document.body.classList.toggle('is-expanded')
-})
+flipBackBtn.addEventListener('click', () => {
+  card.classList.remove('flipped');
+});

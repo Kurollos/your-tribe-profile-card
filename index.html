@@ -1,59 +1,34 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article class="profile-card-example">
-      
-      <header class="profile-card-example-header">
-        
-        <h1>Kurollos Yaakoub</h1>
-        
-        <p><em>Ad Frontend Student</em></p>
-        
-        <button class="profile-card-example-button">
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="https://media.entertainmentearth.com/assets/images/f48415945a2f43388470f7e102d2edd3lg.jpg" alt="" width="800" height="800" class="profile-card-example-img">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurollos Visitekaartje</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 
-      <dl class="profile-card-example-dl">
-        <dt>Samenwerking</dt>
-        <dd>🏆🏆🏆</dd>
-        
-        <dt>Oplettend</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>Rustig</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Ik ben een 21 jarige Developer <br> Met de kennis die ik heb kan ik wat creativiteit uitvoeren.</p>
-      
-    </article>
+  <div class="rect-card">
+    <div class="rect-card-front">
+      <div class="card-content">
+        <img src="https://media.entertainmentearth.com/assets/images/f48415945a2f43388470f7e102d2edd3lg.jpg" alt="Avatar">
+        <div class="text-content">
+          <h2>Kurollos Yaakoub</h2>
+          <p>Ad Frontend Student</p>
+          <p>Ik ben een 21-jarige Developer. Ik ben geïnteresseerd in front-end design, omdat ik dol ben op creativiteit en met deze opleiding kan ik mijn kennis uitbreiden.</p>
+          
+          <!-- Skills onder de tekst -->
+          <h3>Skills & Karakter</h3>                      
+          <ul>
+            <li>💻 Frontend Design</li>        
+            <li>🏆 Samenwerking: ★★★</li>
+            <li>🔍 Oplettend: ★★</li>
+            <li>😌 Rustig: ★★★★</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+</body>
 </html>
