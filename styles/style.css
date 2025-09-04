@@ -10,8 +10,8 @@ body {
 
 /* Extra grote, liggende kaart */
 .rect-card {
-  width: 700px;    /* Groter */
-  height: 420px;   /* Groter */
+  width: 850px;    /* Groter */
+  height: 580px;   /* Groter */
   perspective: 1000px;
   position: relative;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .card-content img {
-  width: 150px;   /* Grotere afbeelding */
+  width: 350px;   /* Grotere afbeelding */
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
